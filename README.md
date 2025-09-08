@@ -23,7 +23,7 @@ Gradle (The project includes the Gradle Wrapper, so a manual installation is not
 First, clone this repository to your local machine:
 
 ```sh
-git clone [https://github.com/INNOCENT-ops806/Dr1nkWater.git](https://github.com/INNOCENT-ops806/Dr1nkWater.git)
+git clone https://github.com/INNOCENT-ops806/Dr1nkWater.git
 ```
 
 ## Usage
