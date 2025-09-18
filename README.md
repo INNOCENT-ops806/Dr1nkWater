@@ -30,7 +30,13 @@ git clone https://github.com/INNOCENT-ops806/Dr1nkWater.git
 
 This project uses a bash script to run the application in the background. Before using it, you need to make a small change to the script to reflect your project's location.
 
-Edit the script path: Open `asset/water_reminder.sh` and change the cd command to point to the correct path on your system.
+Edit the script path: Open
+
+```sh
+asset/water_reminder.sh
+```
+
+and change the cd command to point to the correct path on your system.
 
 Make the script executable:
 
@@ -48,17 +54,25 @@ Run manually: To test the script, you can run it directly:
 
 For continuous use, you can add a line to your ~/.bashrc file to ensure the reminder runs automatically every time you open a new terminal session.
 
-Open your `~/.bashrc` file in your preferred editor. For example, using nano:
+Open your
+
+```sh
+~/.bashrc
+```
+
+file in your preferred editor. For example, using nano:
 
 ```sh
 nano ~/.bashrc
 ```
 
-Add the following line to the end of the file. Be sure to replace `/home/your_username/` with the correct path to your project.
+Add the following line to the end of the file.
 
-# Start the water reminder script in the background
+```sh
+$HOME/Project/GitProject/Dr1nkWater/asset/water_reminder.sh &
+```
 
-`/home/your_username/Project/GitProject/Dr1nkWater/asset/water_reminder.sh &`
+Be sure to replace `/home/your_username/` with the correct path to your project.
 
 Note: Using $HOME is a good practice as it makes the script portable to different users on the same system.
 
